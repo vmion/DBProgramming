@@ -1,3 +1,5 @@
+CREATE DATABASE  IF NOT EXISTS `game` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
+USE `game`;
 -- MySQL dump 10.13  Distrib 8.0.31, for Win64 (x86_64)
 --
 -- Host: localhost    Database: game
@@ -16,34 +18,12 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Dumping data for table `character`
+-- Dumping events for database 'game'
 --
 
-LOCK TABLES `character` WRITE;
-/*!40000 ALTER TABLE `character` DISABLE KEYS */;
-INSERT INTO `character` VALUES (1,'Teheran','Warrior',1,50,30,20,60,1,2,3,4),(2,'Hera','Priest',2,20,20,60,30,1,2,3,4),(3,'Oidi','Thief',3,30,60,30,35,1,2,3,4);
-/*!40000 ALTER TABLE `character` ENABLE KEYS */;
-UNLOCK TABLES;
-
 --
--- Dumping data for table `cloned_character`
+-- Dumping routines for database 'game'
 --
-
-LOCK TABLES `cloned_character` WRITE;
-/*!40000 ALTER TABLE `cloned_character` DISABLE KEYS */;
-INSERT INTO `cloned_character` VALUES ('Teheran',1),('Hera',2),('Oidi',3);
-/*!40000 ALTER TABLE `cloned_character` ENABLE KEYS */;
-UNLOCK TABLES;
-
---
--- Dumping data for table `theos_characterinfo`
---
-
-LOCK TABLES `theos_characterinfo` WRITE;
-/*!40000 ALTER TABLE `theos_characterinfo` DISABLE KEYS */;
-INSERT INTO `theos_characterinfo` VALUES (1,'Teheran','Warrior',1,50,30,20,60,1,2,3,4),(2,'Hera','Priest',2,20,20,60,30,1,2,3,4),(3,'Oidi','Thief',3,30,60,30,35,1,2,3,4);
-/*!40000 ALTER TABLE `theos_characterinfo` ENABLE KEYS */;
-UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -54,4 +34,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-12-27 20:26:29
+-- Dump completed on 2022-12-28 19:36:27
